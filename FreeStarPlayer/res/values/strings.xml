@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">FreeStarPlayer</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">study and test branch</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
 
