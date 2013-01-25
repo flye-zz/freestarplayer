@@ -103,19 +103,8 @@ public class MainActivity extends Activity {
     private void endGesture() {
         mVolume = -1;
         mBrightness = -1f;
-
-        // 隐藏
-        mDismissHandler.removeMessages(0);
-        mDismissHandler.sendEmptyMessageDelayed(0, 500);
     } 
     
-    /** 定时隐藏 */
-    private Handler mDismissHandler = new Handler() {
-        @Override
-        public void handleMessage(Message msg) {
-//            mVolumeBrightnessLayout.setVisibility(View.GONE);
-        }
-    };
 	private class MyGestureListener extends SimpleOnGestureListener{
 
 		@Override
